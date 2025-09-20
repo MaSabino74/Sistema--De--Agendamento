@@ -1,0 +1,44 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Agendamento</title>
+  <meta name="description" content="Um sistema básico para agendamento de horários de atendimento. Ideal para organizar e gerenciar consultas de forma eficiente." />
+  <meta name="keywords" content="agendamento, horários, atendimento, sistema, organização, consultas" />
+  <meta name="author" content="Seu Nome ou Nome da Empresa" />
+  <!--<link rel="canonical" href="https://markshop.com/"/>-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" role="main" aria-label="Formulário de agendamento para barbearia">
+    <h1>Agende seu horário</h1>
+    <form id="bookingForm" novalidate>
+      <label for="name">Nome completo</label>
+      <input type="text" id="name" name="name" placeholder="Seu nome" required minlength="3" aria-required="true" />
+
+      <label for="phone">Telefone</label>
+      <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" pattern="^\$?\d{2}\$?\s?\d{4,5}-?\d{4}$" required aria-required="true" />
+
+      <label for="service">Serviço</label>
+      <select id="service" name="service" required aria-required="true">
+        <option value="" disabled selected>Selecione um serviço</option>
+        <option value="corte">Corte de cabelo</option>
+        <option value="barba">Barba</option>
+        <option value="combo">Corte + Barba</option>
+        <option value="sobrancelha">Sobrancelha</option>
+      </select>
+
+      <label for="date">Data</label>
+      <input type="date" id="date" name="date" required aria-required="true" min="" />
+
+      <label for="time">Horário</label>
+      <input type="time" id="time" name="time" required aria-required="true" min="09:00" max="19:00" step="900" />
+
+      <button type="submit">Agendar</button>
+    </form>
+    <div class="success-message" role="alert" aria-live="polite"></div>
+  </div>
+    <script src="app.js"></script>
+
+  </body>
+</html>
