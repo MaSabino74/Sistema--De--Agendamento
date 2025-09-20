@@ -12,7 +12,7 @@ Este é um sistema básico de agendamento de horários, ideal para organizar e g
 ## Meta Tags
 - **Descrição:** Sistema de agendamento para organizar e gerenciar os atendimentos em um salão de beleza ou barbearia.
 - **Palavras-chave:** agendamento, horários, atendimento, salão de beleza, barbearia, organização, consultas
-- **Autor:** Seu Nome ou Nome da Empresa
+- **Autor:** Marcos Sabino
 
 ## Desenvolvedor
 - **Nome:** Marcos Sabino
