@@ -3,6 +3,9 @@
 ## Descrição
 Este é um sistema básico de agendamento de horários, ideal para organizar e gerenciar de forma eficiente os atendimentos em um salão de beleza ou barbearia.
 
+## Imagem do Projeto
+<img src='Desktop - Mobile.png'>
+
 ## Funcionalidades
 - Agendamento de horários de atendimento
 - Formulário de cadastro com validação de dados
